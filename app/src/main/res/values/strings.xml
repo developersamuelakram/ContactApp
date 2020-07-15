@@ -1,0 +1,193 @@
+<resources>
+    <string name="app_name">MyContacts</string>
+    <string name="workphone">Work</string>
+
+    <string name="homephone">Home</string>
+
+    <string name="personalphone">Personal</string>
+
+
+    <!-- Label for overflow menu option that inserts fake product data into the app [CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <!-- Label for overflow menu option that deletes all product data in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All Items</string>
+
+    <!-- Title for the activity to add a new product [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_product">Add an item</string>
+
+    <!-- Label for editor menu option to save product and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current product [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Label for overview category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="product_name">Product</string>
+
+    <!-- Label for grade information in the editor [CHAR LIMIT=30] -->
+    <string name="product_grade">Product grade</string>
+
+    <!-- Label for measurement information in the editor [CHAR LIMIT=30] -->
+    <string name="category_measurement">Quantity</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_product_name">Product name</string>
+
+    <!-- Text hint for model field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_product_model">Model</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_product_quantity">Quantity</string>
+
+    <!-- Units for weight of the product (kilograms) [CHAR LIMIT=5] -->
+    <string name="unit_product_quantity">pcs</string>
+
+    <!-- Label for dropdown menu option if the product's grade is unknown [CHAR LIMIT=20] -->
+    <string name="grade_unknown">Unknown</string>
+
+    <!-- Label for dropdown menu option if the product is male [CHAR LIMIT=20] -->
+    <string name="grade_new">New</string>
+
+    <!-- Label for dropdown menu option if the product is female [CHAR LIMIT=20] -->
+    <string name="grade_used">Used</string>
+
+    <!-- Toast message in editor when new product has been successfully inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_product_successful">Item saved</string>
+
+    <!-- Toast message in editor when new product has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_product_failed">Error with saving item</string>
+
+    <!-- Title text for the empty view, which describes the empty dog house image [CHAR LIMIT=50] -->
+    <string name="empty_view_title_text">No products, no money, no funny…</string>
+
+    <!-- Subtitle text for the empty view that prompts the user to add a product [CHAR LIMIT=50] -->
+    <string name="empty_view_subtitle_text">Get started by adding an item</string>
+    <string name="editor_activity_title_edit_product">Edit Product</string>
+
+    <!-- Toast message in editor when current product was successfully updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_product_successful">Item updated</string>
+
+    <!-- Toast message in editor when current product has failed to be updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_product_failed">Error with updating item</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current product [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Toast message in editor when current product was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_product_successful">Item deleted</string>
+
+    <!-- Toast message in editor when current product has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_product_failed">Error with deleting item</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current product [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this item?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current product [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current product [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+
+    <!-- Label for the product's model if the model is unknown -->
+    <string name="unknown_model">Unknown model</string>
+
+    <!-- Label for the product's photo -->
+    <string name="product_photo">Photo</string>
+
+    <!-- Label for the product's supplier -->
+    <string name="supplier">Supplier</string>
+
+    <!-- Hint for the supplier's name -->
+    <string name="hint_supplier_name">E.g.: Supplier Name</string>
+
+    <!-- Hint for the supplier's e-mail -->
+    <string name="hint_email_supplier">E.g.: email@supplier.com</string>
+
+    <!-- Currency symbol for the price field -->
+    <string name="currency_symbol">€</string>
+
+    <!-- Hint for the price field -->
+    <string name="price_hint_editor_activity">E.g.: 28.99</string>
+
+    <!-- Label hint for the add photo section. Visible if new product -->
+    <string name="add_photo_hint_text">Tap to add a photo</string>
+
+    <!-- Label hint for the add photo section. Visible if product is editing -->
+    <string name="edit_photo_hint_text">Tap to change a photo</string>
+
+    <!-- Type of files which can be selected (Add photo) -->
+    <string name="intent_type">image/*</string>
+
+    <!-- Label hint for the add photo section. Visible if new product -->
+    <string name="select_image">Select image</string>
+
+    <!-- Option for action menu, user can order more by sending e-mail-->
+    <string name="action_order_more">Order more</string>
+
+    <!-- Toast message: validation of product name field -->
+    <string name="validation_msg_product_name">Product name is required</string>
+
+    <!-- Toast message: validation of product quantity -->
+    <string name="validation_msg_product_quantity">Quantity is required</string>
+
+    <!-- Toast message: validation of product price -->
+    <string name="validation_msg_product_price">Price is required</string>
+
+    <!-- Toast message: validation of product image -->
+    <string name="validation_msg_product_image">Photo of product is required</string>
+
+    <!-- Toast message: validation of product quantity -->
+    <string name="error_msg_stock_update">Issue with upload value of quantity</string>
+
+    <!-- Toast message about sold item -->
+    <string name="buy_msg_confirm">Item has been sold</string>
+
+    <!-- Toast message: validation of missing product in stock -->
+    <string name="no_product_in_stock">No available product in stock</string>
+
+    <!-- Label for stock -->
+    <string name="in_stock">In stock:</string>
+
+    <!-- Label for unit -->
+    <string name="pcs_unit">pcs</string>
+
+    <!-- Label for stock -->
+    <string name="euro_currency_sign">€</string>
+
+    <!-- Example: model -->
+    <string name="example_model">DMC-370ZX</string>
+
+    <!-- Example: name of item -->
+    <string name="example_name_of_item">Sony</string>
+
+    <!-- Example: price of item -->
+    <string name="example_price">199,99</string>
+
+    <!-- Example: quantity of item -->
+    <string name="example_quantity">9</string>
+
+    <!-- Dummy data: name of item -->
+    <string name="dummy_data_product_name">SONY</string>
+
+    <!-- Dummy data: model of item -->
+    <string name="dummy_data_product_model">EXAMPLE-J34AL</string>
+
+    <!-- Dummy data: supplier e-mail -->
+    <string name="dummy_data_supplier_email">orders.storehouse@sony.com</string>
+
+    <!-- Dummy data: supplier name -->
+    <string name="dummy_data_supplier_name">John Doe</string>
+
+    <!-- Dummy data: model of item -->
+    <string name="toast_out_of_stock_msg">Product is out of stock!</string>
+
+
+</resources>
+

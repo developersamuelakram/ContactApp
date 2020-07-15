@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/imageContact"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/photo"
+        android:layout_margin="8dp" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textName"
+        android:layout_toRightOf="@+id/imageContact"
+        tools:text="Contact Name"
+        android:textSize="18sp"
+        android:textColor="#212121"
+        android:textStyle="bold"
+        android:layout_marginTop="9dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textNumber"
+        android:layout_marginRight="5dp"
+        android:layout_below="@+id/textName"
+        android:layout_toRightOf="@+id/imageContact"
+        tools:text="Contact Number"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:layout_marginTop="2dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textName"
+        android:layout_marginTop="2.5dp"
+        android:layout_toRightOf="@+id/textNumber"
+        tools:text="Type of Contact"
+        android:textColor="#1A237E"
+        android:textStyle="italic"
+        android:id="@+id/textTypeofContact"
+        android:textSize="14sp"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textEmail"
+        android:layout_below="@+id/textNumber"
+        android:layout_toRightOf="@+id/imageContact"
+        tools:text="Email"
+        android:textColor="#DD2C00"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:layout_marginTop="2dp"/>
+
+
+
+
+
+</RelativeLayout>
